@@ -21,9 +21,9 @@ button.emotion-list-item:focus {
 
 button.emotion-list-item:active,
 button.emotion-list-item.selected {
-  -webkit-box-shadow: inset 0px 0px 5px, rgb(0, 0, 0, 0.8);
-  -moz-box-shadow: inset 0px 0px 5px rgb(0, 0, 0, 0.8);
-  box-shadow: inset 0px 0px 5px rgb(0, 0, 0, 0.8);
+  -webkit-box-shadow: inset 0px 0px 5px, rgb(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0px 0px 5px rgb(0, 0, 0, 0.6);
+  box-shadow: inset 0px 0px 5px rgb(0, 0, 0, 0.6);
   opacity: 1;
 }
 
