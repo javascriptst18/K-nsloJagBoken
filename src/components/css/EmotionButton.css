@@ -1,0 +1,41 @@
+button.emotion-list-item {
+  padding: 8px 16px;
+  font-size: 1.2rem;
+  color: #feffff;
+  border: none;
+  border-radius: 5px;
+  margin: 0 12px 12px 0;
+}
+
+button.emotion-list-item:hover {
+  cursor: pointer;
+}
+
+button.emotion-list-item:active,
+button.emotion-list-item:focus {
+  outline: none;
+}
+
+button.emotion-list-item:active,
+button.emotion-list-item.selected {
+  -webkit-box-shadow: inset 0px 0px 5px #000;
+  -moz-box-shadow: inset 0px 0px 5px #000;
+  box-shadow: inset 0px 0px 5px #000;
+  opacity: 1;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
