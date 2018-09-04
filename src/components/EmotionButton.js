@@ -3,7 +3,7 @@ import './css/EmotionButton.css';
 
 class EmotionButton extends React.Component {
   state = {
-    selected: false,,
+    selected: false,
   };
 
   handleClick = () => {
