@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+import StartScreen from './components/StartScreen';
 
-class App extends Component {
+class App extends React.Component {
   render() {
-    return <div className="App" />;
+    return (
+      <div className="App">
+        <StartScreen />
+      </div>
+    );
   }
 }
 
