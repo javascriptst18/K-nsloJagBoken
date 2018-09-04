@@ -27,7 +27,11 @@ class EmotionButton extends React.Component {
         onClick={this.handleClick}
       >
         {item.name}
-        {selected && <i className="far fa-check-circle" />}
+        {selected ? (
+          <i className="far fa-check-circle" />
+        ) : (
+          <i className="far fa-circle" />
+        )}
       </button>
     );
   }
